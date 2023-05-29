@@ -10,8 +10,8 @@ export const Header = () => {
 
   return (
     <>
-      <nav className="mx-8">
-        <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+      <nav>
+        <div className="flex flex-row-reverse flex-wrap items-center justify-between py-4">
           <Link href="/">
             <Image
               src="/assets/logo.png"
@@ -24,7 +24,7 @@ export const Header = () => {
           <button
             type="button"
             onClick={() => setOpen(!open)}
-            className="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+            className="text-gray-500 hover:bg-gray-100 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ml-3 inline-flex items-center rounded-lg p-2 text-sm focus:outline-none focus:ring-2 md:hidden"
           >
             <span className="sr-only">Open main menu</span>
             <HamburgerIcon className="h-6 w-6" />
@@ -35,7 +35,7 @@ export const Header = () => {
             id="navbar-default"
           >
             <ul
-              className="mt-4 flex flex-col rounded-lg border border-gray-100 p-4 font-medium dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:space-x-reverse md:border-0 md:p-0"
+              className="border-gray-100 dark:border-gray-700 mt-4 flex flex-col rounded-lg border p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:space-x-reverse md:border-0 md:p-0"
               style={{ direction: 'rtl' }}
             >
               <NavBarItem href="#">עלינו</NavBarItem>

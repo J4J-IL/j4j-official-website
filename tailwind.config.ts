@@ -47,6 +47,8 @@ module.exports = {
       },
       linearGradient: {
         'activity': 'linear-gradient(0deg, rgba(0, 255, 170, 0.23) 0%, rgba(129, 70, 255, 0.37) 80%)',
+      boxShadow: {
+        readmore: '0px 0px 14px rgba(124, 255, 211, 0.5)',
       },
     },
   },

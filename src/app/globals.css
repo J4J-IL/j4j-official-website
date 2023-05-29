@@ -10,6 +10,7 @@
   }
 
   html {
-    @apply bg-black font-sans;
+    direction: rtl;
+    @apply bg-black font-sans text-white;
   }
 }
